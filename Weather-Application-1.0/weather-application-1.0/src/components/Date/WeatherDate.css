@@ -1,0 +1,16 @@
+.date {
+  display: grid;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 1 rem 0;
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+.date .day{
+  display: flex;
+}
+
+.date .weekDay{
+  display: flex;
+}
