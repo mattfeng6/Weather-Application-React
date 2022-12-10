@@ -13,9 +13,7 @@ const updateWeatherStatusIcon = (props) => {
       return "wi wi-rain";
     case "smoke":
       return "wi wi-smoke";
-    case "mist":
-      return "wi wi-fog";
-    default:
+    default: 
       return "wi wi-na";
   }
 };

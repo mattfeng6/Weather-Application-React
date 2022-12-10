@@ -21,7 +21,7 @@ const App = () => {
       <h2>WEATHER APPLICATION</h2>
       <WeatherDate />
       <NewWeather onAddWeather={addWeatherHandler} />
-      {weathers.length !== 0 && <WeatherWidget items={weathers} />}
+      <WeatherWidget items={weathers} />
     </div>
   );
 };
